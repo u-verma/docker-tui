@@ -263,5 +263,5 @@ When V2.0 is released, follow these steps:
 
 **Note:** This is a living document. As development progresses, changes will be documented here.
 
-[Unreleased]: https://github.com/your-org/docker-tui/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/your-org/docker-tui/releases/tag/v1.0.0
+[Unreleased]: https://github.com/u-verma/docker-tui/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/u-verma/docker-tui/releases/tag/v1.0.0

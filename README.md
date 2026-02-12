@@ -319,8 +319,8 @@ Inspired by:
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues]
-- **Discussions:** [GitHub Discussions]
+- **Issues:** https://github.com/u-verma/docker-tui/issues
+- **Discussions:** https://github.com/u-verma/docker-tui/discussions
 - **Documentation:** See `/docs` folder
 
 ---
