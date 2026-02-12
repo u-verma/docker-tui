@@ -149,16 +149,8 @@ install_docker_tui() {
 #!/usr/bin/env bash
 set -o pipefail
 
-# Load configuration
-SCRIPT_NAME="\$(basename "\$0")"
-CFG="\$(dirname "\$0")/\${SCRIPT_NAME}/config.sh"
-if [[ -f "\$CFG" ]]; then
-    source "\$CFG"
-else
-    # Fallback for standalone installation
-    COMMAND_NAME="\${SCRIPT_NAME}"
-    INSTALL_DIR="\$(dirname "\$0")/\${SCRIPT_NAME}"
-fi
+# Load configuration from installation directory
+source "$INSTALL_DIR/config.sh"
 
 # Check dependencies
 command -v colima >/dev/null || { echo "colima not found. Install with: brew install colima"; exit 1; }
