@@ -159,23 +159,10 @@ docker-tui/
   - Performance improvements
   - New capabilities (Compose, Networks, Search, etc.)
 
-- **[docs/ARCHITECTURE_V2.md](docs/ARCHITECTURE_V2.md)** - Technical architecture
-  - System design and component diagrams
-  - Implementation patterns for new features
-  - Code examples for async loading, timeouts, logging, etc.
-
 - **[docs/FEATURES_V2_SUMMARY.md](docs/FEATURES_V2_SUMMARY.md)** - Quick reference
   - Prioritized feature list
   - Implementation checklist
   - Success metrics
-
-- **[docs/CONTRIBUTING_V2.md](docs/CONTRIBUTING_V2.md)** - Developer guide
-  - Setup instructions
-  - Coding standards
-  - Testing guidelines
-  - PR workflow
-
----
 
 ## 🛠️ Development
 
